@@ -50,4 +50,4 @@ func tree(){
 
 
 
-tree()
+tree() // call the tree() function
