@@ -1,10 +1,10 @@
 func tree(){
 
-	let num = 15  //You can config this num to set tree-level
+	let num = 15                           //You can config this num to set tree-level
 
 	var i = 1
 
-	while i < num {                         //tree-level
+	while i < num {                        //tree-level
 
 		var null = ""
 	
