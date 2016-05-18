@@ -4,13 +4,13 @@ func tree(){
 
 	var i = 1
 
-	while i < num {
+	while i < num {                         //tree-level
 
 		var null = ""
 	
 		var j = num
 
-		while j > i {
+		while j > i {                  //space number
 
 			null += " " 
 
@@ -22,7 +22,7 @@ func tree(){
 
 		var star = ""
 
-		while k < i {
+		while k < i {                    // star number
 
 
 			if k == 0 {
@@ -40,14 +40,11 @@ func tree(){
 		
 		}
 
-		print(null,star)
+		print(null,star)                   // mach the space and star then show them
 
 		i+=1
 	}
 
 }
 
-
-
-
-tree() // call the tree() function
+tree()                                             // call the tree() function
